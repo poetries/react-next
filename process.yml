@@ -1,0 +1,6 @@
+apps:
+  - script: ./build/server-entry.js
+    name: goodsapp
+    env_production:
+      NODE_ENV: production
+      HOST: localhost
