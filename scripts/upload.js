@@ -6,10 +6,10 @@ const filePath = path.join(__dirname,'../outCDN');
 const excludeFiles = ['index.html']
 
 const client = new OSS({
-  region: 'oss-cn-shenzhen',
-  accessKeyId: 'kZnVI14bwQKSxrCy',
-  accessKeySecret: 'UlSp5b5UiMecY2YC0AyZJc4LHZ1HkI',
-  bucket: 'yesdat'
+  region: '',
+  accessKeyId: 'kZnVI14fabwQKSxrCy',
+  accessKeySecret: 'UlSfap5bd5UiMecY2YC0AyZJc4LHZ1HkI',
+  bucket: ''
 });
 
 async function uploadFile(filePath){
